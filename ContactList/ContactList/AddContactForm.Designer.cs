@@ -36,37 +36,41 @@
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Location = new System.Drawing.Point(76, 34);
-            this.txtHoTen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtHoTen.Location = new System.Drawing.Point(76, 72);
+            this.txtHoTen.Margin = new System.Windows.Forms.Padding(2);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(76, 20);
+            this.txtHoTen.Size = new System.Drawing.Size(236, 38);
             this.txtHoTen.TabIndex = 0;
             this.txtHoTen.Text = "họ và tên";
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(76, 68);
-            this.txtSDT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtSDT.Location = new System.Drawing.Point(76, 133);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(2);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(76, 20);
+            this.txtSDT.Size = new System.Drawing.Size(236, 38);
             this.txtSDT.TabIndex = 1;
             this.txtSDT.Text = "số điện thoại";
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(76, 148);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnLuu.Location = new System.Drawing.Point(76, 231);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(60, 28);
+            this.btnLuu.Size = new System.Drawing.Size(180, 59);
             this.btnLuu.TabIndex = 2;
             this.btnLuu.Text = "LƯU";
             this.btnLuu.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(76, 106);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox1.Location = new System.Drawing.Point(76, 188);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(295, 38);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "email";
             // 
@@ -79,7 +83,7 @@
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.txtHoTen);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddContactForm";
             this.Text = "AddContactForm";
             this.ResumeLayout(false);
